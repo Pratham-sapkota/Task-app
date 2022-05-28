@@ -10,11 +10,10 @@ app.use(express.json())
 app.use(userRouter)
 app.use(taskRouter)
 
-// const router=new express.Router()
-
 
 
 app.listen(port,()=>{
     console.log("Listening on port "+port)
 
 })
+
